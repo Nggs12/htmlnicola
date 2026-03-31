@@ -18,3 +18,6 @@ div{
 #raro{
     border: 5px solid #ff2828;
 }
+a{
+    display: flex;
+}
