@@ -1,24 +1,57 @@
 body{
     background-color: rgb(132, 151, 104);
+    margin: 0;
 }
 
 h1{
     color: green;
     text-align: center;
-   
-}
-button{
-    margin-top: 20%;
-    margin-left: 28%;
-    padding: 10px;
-    padding-inline: 40px;
-    color: green;
-    font-size: 200%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(107, 235, 107);
-    border-radius: 20px;
-    cursor: pointer;
+   font-size: 70px;
+   margin: 20px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 div{
     display: flex;
+}
+nav{
+    padding: 10px;
+    background-color: #6A7659;
+    margin: 0;
+    display: flex;
+}
+.icon{
+    width: 45px;
+}
+.divicon{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #C7FFCA;
+    border-radius: 5px;
+}
+.butao{
+    display: block;
+    margin: 0 auto;
+}
+button{
+    background-color: #46FF4C;
+    border: none;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    color: #008000;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    box-shadow: 0px 3px 2px green;
+}
+
+#capa{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
